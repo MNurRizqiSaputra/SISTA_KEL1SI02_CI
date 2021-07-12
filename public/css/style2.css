@@ -1,0 +1,72 @@
+@charset "utf-8";
+/*CSS untuk fitur login*/
+
+body {
+	background-color: rgb(14, 2, 83);
+}
+#body {
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	border-radius: 20px;
+	padding: 20px 25px;
+	width: 300px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0 0 10px rgb(255, 0, 0);
+}
+
+#judul {
+	font-family: sans-serif;
+	text-align: center;
+	color: #000000;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	border-bottom: 4px solid #708090;
+}
+
+.tulisan_login {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+label {
+	font-size: 12pt;
+	font-family: "Raleway Thin", sans-serif;
+}
+
+.form_login {
+	/*membuat lebar form penuh*/
+	width: calc(100% - 20px);
+	padding: 8px 10px;
+	margin-bottom: 15px;
+	border: none;
+	background-color: transparent;
+	border-bottom: 2px solid #2979ff;
+	color: rgb(0, 0, 0);
+	font-size: 20px;
+}
+
+.tombol_login {
+	width: 100%;
+	padding: 5px 0;
+	border: none;
+	background-color: #2979ff;
+	font-size: 18px;
+	color: #fafafa;
+}
+
+.tombol_out {
+	width: 100%;
+	padding: 5px 0;
+	border: 10;
+	background-color: #ff0000;
+	font-size: 20px;
+	color: #fafafa;
+}
+
+.link {
+	color: #232323;
+	text-decoration: none;
+	font-size: 10pt;
+}
